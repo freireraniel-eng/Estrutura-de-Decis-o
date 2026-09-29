@@ -12,3 +12,47 @@ if (soma < c) {
     console.log("Fim!")
 }
 }
+
+function tempoCasamento() {
+    let nome = String(prompt("Digite seu nome:")). toUpperCase()
+    let genero = String(prompt("Qual seu gênero? 'M' ou 'F'?")). toUpperCase();
+    let estadocivil = String(prompt("Qual seu estado civil? Solteiro(a) ou Casado(a)?")). toUpperCase();
+
+    console.log(`
+        =======
+        Nome: ${nome},
+        Genero: ${genero},
+        Estado Civil: ${estadocivil}
+    `);
+    console.log(genero);
+    console.log(estadocivil);
+
+    if(genero === 'F' && estadocivil === 'CASADA') {
+        let tempoCasada = Number(prompt("Quantos anos de casada?"));
+        alert(`
+            ===================
+            Nome: ${nome};
+            Gênero: ${genero};
+            Tempo de casada: ${tempocasada}
+        `);
+    }
+
+}
+
+    function imparPar(){
+        let num = Number(prompt("Digite um número:"));
+        if (num % 2 === 0)  {
+            alert ("Este número é par");
+        } else if (num % 2 === 1) {
+            alert ("Este número é ímpar")
+        }
+            
+        }
+           
+
+        
+        
+
+
+
+    

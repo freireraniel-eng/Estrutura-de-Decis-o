@@ -70,11 +70,21 @@ function tempoCasamento() {
             let resultado = num * 2;
             alert("O dobro de " + num + "é:" + resultado);
         }
-
-
-
     }
-           
+    function lerVariaveis() {
+        let variavel = Number(prompt("Digite um número"))
+        if (variavel % 2 === 0) {
+            let soma = variavel + 5
+            alert("Aresposta é: " + soma);
+        } else {
+            let soma = variavel + 8
+            alert("A resposta é:" + soma);
+
+        }
+
+
+
+    }          
 
         
         
